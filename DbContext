@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using YourNamespace.Models;
+using databaseJakub.Models;
 
-namespace YourNamespace.Data
+namespace databaseJakub.Data
 {
     public class ApplicationDbContext : DbContext
     {
@@ -16,8 +16,6 @@ namespace YourNamespace.Data
         {
             modelBuilder.Entity<PrescriptionMedicament>()
                 .HasKey(pm => new { pm.PrescriptionId, pm.MedicamentId });
-
-            // Additional model configuration here
         }
     }
 }
