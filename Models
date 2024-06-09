@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace YourNamespace.Models
+namespace databaseJakub.Models
 {
     public class Patient
     {
